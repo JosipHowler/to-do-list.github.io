@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="./resources/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script defer src="./resources/js/script.js"></script>
+</head>
+<body>
+    <!-- ------------------------------ Title ------------------------------ -->
+    <h1 class="title">To Do List</h1>
+    <!-- ------------------------------ Title ------------------------------ -->
+    <!-- ------------------------------ Grupa listi ------------------------------ -->
+    <div class="my-lists-container">
+        <h1 class="my-lists-title">My lists</h1>
+        <ul class="my-lists" data-lists>
+
+        </ul>
+        <form action="" class="new-list" data-new-list>
+            <input type="text" placeholder="Create new list" aria-label="Create new list input" class="new-input" data-new-list-input>
+            <button class="new-btn" aria-label="Create new list">+</button>
+        </form>
+    </div>
+    <!-- ------------------------------ Grupa listi ------------------------------ -->
+    <!-- ------------------------------ Lista sa zadatcima i opicjama za brisanje liste i dovršenih zadataka ------------------------------ -->
+    <div class="my-list">
+        <div class="my-list-header">
+            <h2 class="my-list-title" data-list-title>Select a List</h2>
+            <p class="tasks-left" data-tasks-left>No tasks left</p>
+        </div>
+        <div class="my-list-body">
+            <div class="tasks" data-tasks>
+
+            </div>
+
+            <div class="task-creator">
+                <form action="" class="new-list" data-new-task>
+                    <input type="text" placeholder="Create new task" aria-label="Create new task input" class="new-input" data-new-task-input>
+                    <button class="new-btn" aria-label="Create new task">+</button>
+                </form>
+            </div>
+    
+            <div class="delete-section">
+                <button class="delete" data-delete-completed>Delete completed</button>
+                <button class="delete" data-delete-list>Delete list</button>
+            </div>
+        </div>
+    </div>
+    <!-- ------------------------------ Lista sa zadatcima i opicjama za brisanje liste i dovršenih zadataka ------------------------------ -->
+</body>
+</html>
