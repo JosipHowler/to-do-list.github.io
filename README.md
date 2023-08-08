@@ -7,7 +7,7 @@ Ovaj projekt je napravljen korištenjem html-a, css-a i javascript-a. Napravljen
 - kreiranje zadataka za određene liste
 - brisanje zadataka za određene liste
 ## Sastoji se od 2 dijela:
-- lijevi dio koji sadrži sve liste koje možem odabrati klikom miša i koji služi za kreiranje novih lista
+- lijevi dio koji sadrži sve liste koje se mogu odabrati klikom miša i koji služi za kreiranje novih lista
 - desni dio na kojem se nalazi odabrana lista sa svim zadatcima dovršenim i nedovršenim
 ## Programski jezici i alati koji su korišteni:
 - HTML
